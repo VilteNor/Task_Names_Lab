@@ -1,8 +1,5 @@
 package com.example.task_01.models;
 
-
-//    POJO constructor
-
 public class Greeting {
 
     private String name;
@@ -11,6 +8,7 @@ public class Greeting {
         this.name=name;
         this.timeOfDay=timeOfDay;
     }
+    //    POJO constructor
     public Greeting(){}
 
 //    getters and setters
